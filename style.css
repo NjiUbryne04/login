@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color:  rgb(100, 96, 96);
+    font-family: Arial, sans-serif;
+}
+
+form {
+    background-color: #fff;
+    border: 3px solid black;
+    width: 90%;
+    max-width: 500px;
+    height: 45vh;
+    text-align: center;
+    padding: 20px;
+    margin: 12px auto;
+    border-radius: 50px;
+    box-shadow: 0 4px 38px rgba(0, 0, 0, 0.1);
+    margin-top: 10%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+input {
+    border-radius: 13px;
+    width: 100%;
+    max-width: 450px;
+    height: 6vh;
+    text-align: center;
+    font-family: serif;
+    margin-bottom: 20px;
+    background-color: #fff;
+    /* font-weight: 600; */
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    max-width: 150px;
+    height: 8vh;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: serif;
+    background-color: rgb(100, 96, 96);
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+input::placeholder {
+    font-size: 18px;
+}
+
+button:hover {
+    background: rgb(125, 125, 248);
+    box-shadow: 0 4px 10px rgba(111, 111, 220, 0.3);
+}
+
+@media (min-width: 600px) {
+    form {
+        width: 50%;
+        margin-top: 100px;
+    }
+
+    input {
+        width: 80%;
+    }
+
+    button {
+        width: 30%;
+    }
+}
+
+@media (min-width: 500px) {
+    form {
+        width: 50%;
+        margin-top: 130px;
+    }
+
+    input {
+        width: 70%;
+    }
+
+    button {
+        width: 20%;
+    }
+}
